@@ -1,1 +1,1 @@
-web: gunicorn csitext:app --log-file=-
+web: gunicorn text:app --log-file=-
